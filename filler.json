@@ -1,0 +1,407 @@
+[
+    {
+        "id": 1,
+        "language": "python",
+        "difficulty_level": "easy",
+        "topic": "Loops and Iteration",
+        "subtag": "InnovativeLoops",
+        "question": "Write a Python program to reverse a given string without using any built-in string reversal functions or methods.",
+        "mark": 2
+    },
+    {
+        "id": 2,
+        "language": "python",
+        "difficulty_level": "medium",
+        "topic": "Loops and Iteration",
+        "subtag": "InnovativeLoops",
+        "question": "Write a Python program to find the largest prime number less than a given integer using a loop and without using any external libraries for prime checking.",
+        "mark": 3
+    },
+    {
+        "id": 3,
+        "language": "python",
+        "difficulty_level": "hard",
+        "topic": "Loops and Iteration",
+        "subtag": "InnovativeLoops",
+        "question": "Write a Python program to simulate the game of 'Rock, Paper, Scissors' against the computer. The game should continue until one of the players wins three rounds in a row.",
+        "mark": 4
+    },
+    {
+        "id": 4,
+        "language": "python",
+        "difficulty_level": "easy",
+        "topic": "Conditional Statements",
+        "subtag": "IfElseExplorers",
+        "question": "Write a Python program that helps a user choose a meal at a restaurant based on their dietary preferences. The program should consider options for vegetarians, vegans, and meat lovers using if-else statements.",
+        "mark": 2
+    },
+    {
+        "id": 5,
+        "language": "python",
+        "difficulty_level": "medium",
+        "topic": "Conditional Statements",
+        "subtag": "ConditionalCrafters",
+        "question": "Write a Python program that calculates the cost of a ride-sharing trip based on the distance traveled, time of day, and vehicle type. Use if-else statements to apply different pricing rules.",
+        "mark": 3
+    },
+    {
+        "id": 6,
+        "language": "python",
+        "difficulty_level": "hard",
+        "topic": "Conditional Statements",
+        "subtag": "ChoiceChampions",
+        "question": "Write a Python program to simulate a password manager that prompts the user for a master password. If the master password is correct, the program should allow the user to access stored passwords; otherwise, it should lock them out.",
+        "mark": 4
+    },
+    {
+        "id": 7,
+        "language": "python",
+        "difficulty_level": "medium",
+        "topic": "Functions and Methods",
+        "subtag": "FunctionFanatics",
+        "question": "Write a Python function that generates a random password for a user. The function should take the password length as an argument and include a mix of uppercase letters, lowercase letters, numbers, and special characters.",
+        "mark": 4
+    },
+    {
+        "id": 8,
+        "language": "python",
+        "difficulty_level": "hard",
+        "topic": "Functions and Methods",
+        "subtag": "MethodMasters",
+        "question": "Create a Python class representing a smart home device. Implement methods for turning on/off lights, adjusting thermostat settings, and locking/unlocking doors. Demonstrate the usage of these methods in a sample smart home scenario.",
+        "mark": 5
+    },
+    {
+        "id": 9,
+        "language": "python",
+        "difficulty_level": "medium",
+        "topic": "Functions and Methods",
+        "subtag": "ProceduralPioneers",
+        "question": "Write a Python program that simulates a simple inventory management system for a small store. Implement functions to add products, remove products, and display the current inventory. Use dictionaries to store product information.",
+        "mark": 4
+    },
+    {
+        "id": 10,
+        "language": "python",
+        "difficulty_level": "medium",
+        "topic": "Functions and Methods",
+        "subtag": "CodeCrafters",
+        "question": "Write a Python function that calculates the factorial of a non-negative integer using recursion. The function should take an integer as input and return the factorial of that number.",
+        "mark": 4
+    },
+    {
+        "id": 11,
+        "language": "python",
+        "difficulty_level": "easy",
+        "topic": "Variables and Data Types",
+        "subtag": "VariableVirtuosos",
+        "question": "Create a Python program that defines a variable 'message' with the value 'Hello, World!' and then prints the message to the console.",
+        "mark": 2
+    },
+    {
+        "id": 12,
+        "language": "python",
+        "difficulty_level": "easy",
+        "topic": "Variables and Data Types",
+        "subtag": "TypeTinkers",
+        "question": "Write a Python program that defines variables for the following data: name (string), age (integer), and is_student (boolean). Assign appropriate values to these variables and print their types and values.",
+        "mark": 2
+    },
+    {
+        "id": 13,
+        "language": "python",
+        "difficulty_level": "easy",
+        "topic": "Variables and Data Types",
+        "subtag": "DataDiscoverers",
+        "question": "Create a Python program that calculates and prints the area of a rectangle. Define variables for the length and width of the rectangle, and use appropriate data types.",
+        "mark": 2
+    },
+    {
+        "id": 14,
+        "language": "python",
+        "difficulty_level": "easy",
+        "topic": "Lists and Arrays",
+        "subtag": "ListLearners",
+        "question": "Write a Python program to create a list of your favorite fruits and then print the list to the console.",
+        "mark": 2
+    },
+    {
+        "id": 15,
+        "language": "python",
+        "difficulty_level": "medium",
+        "topic": "Lists and Arrays",
+        "subtag": "ArrayArtisans",
+        "question": "Create a Python program that simulates a basic to-do list. Implement the ability to add tasks, mark tasks as completed, and remove tasks from the list.",
+        "mark": 3
+    },
+    {
+        "id": 16,
+        "language": "python",
+        "difficulty_level": "hard",
+        "topic": "Lists and Arrays",
+        "subtag": "ArrayAlchemists",
+        "question": "Write a Python function that takes a list of integers as input and returns the sum of the squares of only the positive integers in the list.",
+        "mark": 5
+    },
+    {
+        "id": 17,
+        "language": "python",
+        "difficulty_level": "hard",
+        "topic": "Lists and Arrays",
+        "subtag": "ListLuminaries",
+        "question": "Create a Python program that generates a 3x3 matrix (list of lists) where each element is a random number between 1 and 100. Calculate and print the sum of each row, column, and diagonal in the matrix.",
+        "mark": 5
+    },
+    {
+        "id": 18,
+        "language": "python",
+        "difficulty_level": "easy",
+        "topic": "Dictionaries and Sets",
+        "subtag": "DictionaryNovices",
+        "question": "Create a Python dictionary that represents a simple address book. Include the names and email addresses of a few friends. Print the email address of a specific friend.",
+        "mark": 2
+    },
+    {
+        "id": 19,
+        "language": "python",
+        "difficulty_level": "medium",
+        "topic": "Dictionaries and Sets",
+        "subtag": "SetSavvy",
+        "question": "Write a Python program that takes a list of numbers and creates a set of unique numbers from that list. Calculate and print the sum of the unique numbers.",
+        "mark": 3
+    },
+    {
+        "id": 20,
+        "language": "python",
+        "difficulty_level": "hard",
+        "topic": "Dictionaries and Sets",
+        "subtag": "DictionaryDaredevils",
+        "question": "Create a Python program that simulates a simple online store. Implement a dictionary to store product information (name, price) and a set to keep track of items in the user's shopping cart. Calculate and print the total cost of items in the cart.",
+        "mark": 4
+    },
+    {
+        "id": 21,
+        "language": "python",
+        "difficulty_level": "easy",
+        "topic": "Strings and Text",
+        "subtag": "StringStarters",
+        "question": "Write a Python program that concatenates two strings and prints the result.",
+        "mark": 2
+    },
+    {
+        "id": 22,
+        "language": "python",
+        "difficulty_level": "medium",
+        "topic": "Strings and Text",
+        "subtag": "TextTinkerers",
+        "question": "Create a Python function that takes a sentence as input and counts the number of vowels (a, e, i, o, u) in the sentence. Return the count of vowels.",
+        "mark": 3
+    },
+    {
+        "id": 23,
+        "language": "python",
+        "difficulty_level": "hard",
+        "topic": "Strings and Text",
+        "subtag": "StringSorcerers",
+        "question": "Write a Python program that checks if a given word is a palindrome (reads the same backward as forward) using string manipulation. Return True if it's a palindrome, and False otherwise.",
+        "mark": 4
+    },
+    {
+        "id": 24,
+        "language": "python",
+        "difficulty_level": "easy",
+        "topic": "Math and Arithmetic",
+        "subtag": "MultipurposeMath",
+        "question": "Write a Python program that does the following tasks:\n\n1. Generate a list of the first 10 positive even integers.\n2. Calculate and print the sum of these even integers.\n3. Find the factorial of the sum calculated in step 2 and display the result.",
+        "mark": 2
+    },
+    {
+        "id": 25,
+        "language": "python",
+        "difficulty_level": "medium",
+        "topic": "Math and Arithmetic",
+        "subtag": "MultiOperationMath",
+        "question": "Create a Python program that performs a series of mathematical operations:\n\n1. Take a user input number 'n'.\n2. Find the square of 'n'.\n3. Calculate the cube of 'n'.\n4. Determine if 'n' is a prime number.\n5. Display the results of each operation.",
+        "mark": 3
+    },
+    {
+        "id": 26,
+        "language": "python",
+        "difficulty_level": "hard",
+        "topic": "Math and Arithmetic",
+        "subtag": "AdvancedMathTasks",
+        "question": "Write a Python program that combines multiple math tasks:\n\n1. Find the greatest common divisor (GCD) of two numbers using a function.\n2. Calculate the square root of a given number.\n3. Compute the sum of the first 'n' natural numbers.\n4. Display the results of all these tasks.",
+        "mark": 4
+    },
+    {
+        "id": 27,
+        "language": "python",
+        "difficulty_level": "easy",
+        "topic": "Boolean Logic",
+        "subtag": "MultitaskLogic",
+        "question": "Write a Python program that performs the following tasks:\n\n1. Check if a given number is even and print 'True' or 'False'.\n2. Determine if the number is a multiple of 3 and print the result.\n3. Check if the number is divisible by both 2 and 3, and display the outcome.",
+        "mark": 2
+    },
+    {
+        "id": 28,
+        "language": "python",
+        "difficulty_level": "medium",
+        "topic": "Boolean Logic",
+        "subtag": "LogicPuzzleChallenge",
+        "question": "Create a Python program that combines logic puzzles and arithmetic:\n\n1. Generate a random number between 1 and 100.\n2. Determine if the number is a prime number and print the result.\n3. Calculate the square of the number and print the result.\n4. Display 'True' if the number is odd and a perfect square (e.g., 9, 25). Otherwise, display 'False'.",
+        "mark": 3
+    },
+    {
+        "id": 29,
+        "language": "python",
+        "difficulty_level": "hard",
+        "topic": "Boolean Logic",
+        "subtag": "AdvancedLogicTasks",
+        "question": "Write a Python program that tackles multiple logic tasks:\n\n1. Check if a password meets certain complexity requirements (length, uppercase letters, numbers, special characters).\n2. Validate an email address based on a set of rules (e.g., it should contain '@' and a valid domain).\n3. Determine if a given sentence contains a specific keyword. Display 'True' or 'False' based on the keyword's presence.",
+        "mark": 4
+    },
+    {
+        "id": 30,
+        "language": "python",
+        "difficulty_level": "easy",
+        "topic": "Error Handling",
+        "subtag": "BasicErrorHandling",
+        "question": "Write a Python program that calculates the division of two numbers provided by the user. Implement error handling to catch and handle division by zero and non-numeric input. Ask the user for valid inputs until the calculation can be performed without errors.",
+        "mark": 2
+    },
+    {
+        "id": 31,
+        "language": "python",
+        "difficulty_level": "medium",
+        "topic": "Error Handling",
+        "subtag": "ErrorResolution",
+        "question": "Create a Python program that simulates a shopping cart. Implement error handling to prevent the user from adding a negative quantity of items to the cart. If an error occurs, display an error message and ask the user for a valid quantity.",
+        "mark": 3
+    },
+    {
+        "id": 32,
+        "language": "python",
+        "difficulty_level": "hard",
+        "topic": "Error Handling",
+        "subtag": "AdvancedErrorHandling",
+        "question": "Write a Python program that simulates a complex booking system for an event. Implement error handling to check for booking conflicts and ensure that two people don't book the same seat at the same time. Display an error message if a conflict is detected and ask the user to choose a different seat or time.",
+        "mark": 4
+    },
+    {
+        "id": 33,
+        "language": "python",
+        "difficulty_level": "easy",
+        "topic": "Comments and Documentation",
+        "subtag": "BasicCommentTasks",
+        "question": "Write a Python program that calculates the perimeter of a rectangle. Add comments to explain the formula used and describe each step of the calculation. Include a comment block at the beginning of the program explaining its purpose.",
+        "mark": 2
+    },
+    {
+        "id": 34,
+        "language": "python",
+        "difficulty_level": "medium",
+        "topic": "Comments and Documentation",
+        "subtag": "CommentaryChallenge",
+        "question": "Create a Python program that generates a list of prime numbers within a specified range. Add comments to explain the prime-checking algorithm used. Document the function responsible for finding primes, describing its parameters and return value.",
+        "mark": 3
+    },
+    {
+        "id": 35,
+        "language": "python",
+        "difficulty_level": "hard",
+        "topic": "Comments and Documentation",
+        "subtag": "AdvancedCommentary",
+        "question": "Write a Python program that simulates a basic e-commerce system. Add comments throughout the code to explain the shopping cart functionality, including adding items, removing items, and calculating the total price. Document the classes and methods using detailed docstrings.",
+        "mark": 4
+    },
+    {
+        "id": 36,
+        "language": "python",
+        "difficulty_level": "easy",
+        "topic": "Input and Output",
+        "subtag": "MultiTaskIO",
+        "question": "Write a Python program that performs multiple tasks:\n\n1. Ask the user to enter their name.\n2. Display a greeting message with the user's name.\n3. Calculate the square of a user-provided number and print the result.",
+        "mark": 2
+    },
+    {
+        "id": 37,
+        "language": "python",
+        "difficulty_level": "medium",
+        "topic": "Input and Output",
+        "subtag": "ComplexCommandLineTasks",
+        "question": "Create a Python program that combines various command-line tasks:\n\n1. Request the user's age and determine if they are a minor or adult.\n2. Ask the user for two numbers and an operator (add, subtract, multiply, or divide).\n3. Perform the chosen operation and display the result.",
+        "mark": 3
+    },
+    {
+        "id": 38,
+        "language": "python",
+        "difficulty_level": "hard",
+        "topic": "Input and Output",
+        "subtag": "AdvancedCommandLineTasks",
+        "question": "Write a Python program that simulates a command-line puzzle game:\n\n1. Present the user with a riddle or puzzle to solve.\n2. Allow the user to enter their answer.\n3. Provide feedback on whether the answer is correct or not. Keep track of the user's score throughout the game.",
+        "mark": 4
+    },
+    {
+        "id": 39,
+        "language": "python",
+        "difficulty_level": "easy",
+        "topic": "Recursion",
+        "subtag": "BasicRecursionInterview",
+        "question": "Write a Python program to find the nth Fibonacci number using recursion. Explain both the recursive function and its time complexity.",
+        "mark": 2
+    },
+    {
+        "id": 40,
+        "language": "python",
+        "difficulty_level": "medium",
+        "topic": "Recursion",
+        "subtag": "IntermediateRecursionInterview",
+        "question": "Create a Python program that recursively generates all permutations of a given string. Ensure that each permutation is printed as output. Discuss the time complexity of your solution.",
+        "mark": 3
+    },
+    {
+        "id": 41,
+        "language": "python",
+        "difficulty_level": "hard",
+        "topic": "Recursion",
+        "subtag": "AdvancedRecursionInterview",
+        "question": "Write a Python program to solve the Tower of Hanoi puzzle with N discs using recursion. Explain the recursive approach and discuss its time complexity.",
+        "mark": 4
+    },
+    {
+        "id": 42,
+        "language": "python",
+        "difficulty_level": "easy",
+        "topic": "Basic Algorithms",
+        "subtag": "MultiTaskBasicAlgorithm",
+        "question": "Write a Python program that takes a user's age as input and tells them the year they will turn 100 years old. Additionally, check and display if the user's age is even or odd.",
+        "mark": 2
+    },
+    {
+        "id": 43,
+        "language": "python",
+        "difficulty_level": "medium",
+        "topic": "Basic Algorithms",
+        "subtag": "MultiTaskIntermediateAlgorithm",
+        "question": "Create a Python program that calculates the greatest common divisor (GCD) of two numbers. Additionally, provide the least common multiple (LCM) of the same numbers.",
+        "mark": 3
+    },
+    {
+        "id": 44,
+        "language": "python",
+        "difficulty_level": "hard",
+        "topic": "Basic Algorithms",
+        "subtag": "MultiTaskAdvancedAlgorithm",
+        "question": "Write a Python program that simulates a basic command-line calculator. The program should take two numbers and an operator as input and display the result. Additionally, provide the factorial of the first number.",
+        "mark": 4
+    },
+    {
+        "id": 45,
+        "language": "python",
+        "difficulty_level": "hard",
+        "topic": "Loops and Iteration",
+        "subtag": "ConfusingLoopChallenge",
+        "question": "Create a Python program that calculates the sum of numbers in a sequence. However, the sequence is generated as follows: Starting from 1, add the next odd number to the current number. Continue this process until the sum exceeds a user-defined limit. Display the sum and the number of odd terms added to reach that sum.",
+        "mark": 4
+    }
+]
