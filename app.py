@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-import randomizer
+import randomizer1
 app = Flask(__name__)
 
 @app.route('/')
@@ -20,7 +20,7 @@ def input_form():
         percentage_coding=int(percentage_coding)
         print(type(total_marks))
 
-        randomizer.main(language, percentage_coding, tags, total_marks, difficulty_level)
+        randomizer1.main(language, percentage_coding, tags, total_marks, difficulty_level)
         return 'Form submitted successfully!'
     return render_template('main.html',total_marks=total_marks)
 
