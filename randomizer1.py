@@ -1,20 +1,21 @@
 import json
 import random
 
-#randomizer
-#ChatGPT
+# Randomizer Functions
+
 def MCQ_randomizer(tags, lang, mcq_marks):
     with open('mcq_qn.json') as f:
         questions = json.load(f)
 
+    random.shuffle(questions)  # Shuffle the questions
+
     selected_questions = []
     current_mark = 0
 
-    # Create a dictionary to keep track of selected tags and their counts
     selected_tag_counts = {tag: 0 for tag in tags}
 
     for q in questions:
-        if any(tag in q['topic'] for tag in tags):  # Check if any of the tags are in the question's topic
+        if any(tag in q['topic'] for tag in tags):
             for tag in tags:
                 if tag in q['topic'] and selected_tag_counts[tag] < len(questions) / len(tags):
                     if current_mark + q['mark'] <= mcq_marks:
@@ -30,19 +31,15 @@ def MCQ_randomizer(tags, lang, mcq_marks):
 
     return selected_questions, current_mark
 
-
-
-import json
-import random
-
 def cod_randomizer(lang, tags, dl, cod_marks):
     with open('cod_qn.json') as f:
         questions = json.load(f)
 
+    random.shuffle(questions)  # Shuffle the questions
+
     cod_questions = []
     current_mark = 0
 
-    # Create a dictionary to keep track of selected tags and their counts
     selected_tag_counts = {tag: 0 for tag in tags}
 
     for q in questions:
@@ -65,10 +62,11 @@ def filler_randomizer(lang, tags, dl, filler_marks):
     with open('filler.json') as f:
         questions = json.load(f)
 
+    random.shuffle(questions)  # Shuffle the questions
+
     filler_questions = []
     current_mark = 0
 
-    # Create a dictionary to keep track of selected tags and their counts
     selected_tag_counts = {tag: 0 for tag in tags}
 
     for q in questions:
@@ -87,38 +85,28 @@ def filler_randomizer(lang, tags, dl, filler_marks):
 
     return filler_questions, current_mark
 
-#main function
+# Main function
 
-def main(language, cod_per, tag, total_mark, dl):
+def main(language, cod_per, tags, total_mark, dl):
 
-    # language = "python"
-    # total_mark = 100
-    mcq_per = 100-cod_per
-    # cod_per = 80
-    # tag = "Loops and Iteration"
-    # tag1 = "numbers"
-    # dl = "easy"
+    mcq_per = 100 - cod_per
 
     mcq_marks = (mcq_per / 100) * total_mark
     cod_marks = (cod_per / 100) * total_mark
 
-    mcq_quest, m_mark = MCQ_randomizer(tag ,language , mcq_marks)
-    cod_quest, c_mark = cod_randomizer(language, tag, dl, cod_marks)
+    mcq_quest, m_mark = MCQ_randomizer(tags ,language , mcq_marks)
+    cod_quest, c_mark = cod_randomizer(language, tags, dl, cod_marks)
 
     filler_mark = cod_marks - c_mark
 
-    filler, f_mark = filler_randomizer(language, tag, dl, filler_mark)
-    # selected_questions = get_random_questions(questions,mcq_marks, tag)
-    
+    filler, f_mark = filler_randomizer(language, tags, dl, filler_mark)
+
     final = [mcq_quest, cod_quest, filler]
 
-    # print(final)
+    random.shuffle(final)  # Shuffle the final list of questions
 
     with open('final.json', 'w') as output_file:
         json.dump(final, output_file, indent=4)
-    
-    
-    
     
     print(cod_quest)
     print(mcq_marks)
@@ -127,6 +115,7 @@ def main(language, cod_per, tag, total_mark, dl):
     print(m_mark+c_mark+f_mark)
     print("MCQ mark: ",m_mark)
     print("coding mark: ",c_mark)
-    
+    print(f_mark)
+
 if __name__ == '__main__':
-    main()
+    main("python", 80, ["Loops and Iteration", "numbers"], 100, "easy")
