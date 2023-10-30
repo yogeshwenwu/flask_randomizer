@@ -15,19 +15,20 @@ def MCQ_randomizer(tags, lang, mcq_marks):
     selected_tag_counts = {tag: 0 for tag in tags}
 
     for q in questions:
-        if any(tag in q['topic'] for tag in tags):
-            for tag in tags:
-                if tag in q['topic'] and selected_tag_counts[tag] < len(questions) / len(tags):
-                    if current_mark + q['mark'] <= mcq_marks:
-                        selected_questions.append({
-                            'ID': q['id'],
-                            'Marks': q['mark'],
-                            'Question_Text': q['question'],
-                            'Options': q['options']
-                        })
-                        current_mark += q['mark']
-                        selected_tag_counts[tag] += 1
-                        break
+        if lang == q['language']:
+            if any(tag in q['topic'] for tag in tags):
+                for tag in tags:
+                    if tag in q['topic'] and selected_tag_counts[tag] < len(questions) / len(tags):
+                        if current_mark + q['mark'] <= mcq_marks:
+                            selected_questions.append({
+                                'ID': q['id'],
+                                'Marks': q['mark'],
+                                'Question_Text': q['question'],
+                                'Options': q['options']
+                            })
+                            current_mark += q['mark']
+                            selected_tag_counts[tag] += 1
+                            break
 
     return selected_questions, current_mark
 
