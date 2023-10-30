@@ -1,0 +1,388 @@
+[
+    [
+        {
+            "ID": 56,
+            "Marks": 1,
+            "Question_Text": "What will be the value of `x` after the following code is executed?\n\n```python\nx = 0\nif x < 0:\n    x = 1\nelif x == 0:\n    x = 2\nelse:\n    x = 3\n```",
+            "Options": [
+                "0",
+                "1",
+                "2",
+                "3"
+            ]
+        },
+        {
+            "ID": 268,
+            "Marks": 1,
+            "Question_Text": "What is the result of the expression (not False)?",
+            "Options": [
+                "True",
+                "False",
+                "Error",
+                "Not Sure"
+            ]
+        },
+        {
+            "ID": 313,
+            "Marks": 1,
+            "Question_Text": "What is the result of trying to access a variable that has not been defined in Python?",
+            "Options": [
+                "NameError",
+                "ValueError",
+                "TypeError",
+                "RuntimeError"
+            ]
+        },
+        {
+            "ID": 27,
+            "Marks": 1,
+            "Question_Text": "What does the `pass` statement do in Python?",
+            "Options": [
+                "Exits the loop completely",
+                "Skips the current iteration and moves to the next",
+                "Acts as a placeholder and does nothing",
+                "Restarts the loop from the beginning"
+            ]
+        },
+        {
+            "ID": 489,
+            "Marks": 1,
+            "Question_Text": "What is the time complexity of the Edmonds-Karp algorithm for finding the maximum flow in a flow network?",
+            "Options": [
+                "O(V^2E)",
+                "O(VE)",
+                "O(E^2V)",
+                "O(V^3)"
+            ]
+        },
+        {
+            "ID": 185,
+            "Marks": 1,
+            "Question_Text": "What is the result of the following expression?\n\n```python\nset1 = {1, 2, 3}\nset2 = {3, 4, 5}\nresult = set1.difference(set2)\n```",
+            "Options": [
+                "{1, 2}",
+                "{1, 2, 3, 4, 5}",
+                "{3}",
+                "{4, 5}"
+            ]
+        },
+        {
+            "ID": 76,
+            "Marks": 1,
+            "Question_Text": "What is the purpose of the `keys` method in a dictionary?",
+            "Options": [
+                "To get a list of all keys in the dictionary",
+                "To get a list of all values in the dictionary",
+                "To add a new key-value pair",
+                "To remove a key from the dictionary"
+            ]
+        },
+        {
+            "ID": 267,
+            "Marks": 1,
+            "Question_Text": "What is the result of the expression (not True)?",
+            "Options": [
+                "True",
+                "False",
+                "Error",
+                "Not Sure"
+            ]
+        },
+        {
+            "ID": 434,
+            "Marks": 1,
+            "Question_Text": "Which of the following is an example of a recursive data structure?",
+            "Options": [
+                "Array",
+                "Linked List",
+                "Queue",
+                "Stack"
+            ]
+        },
+        {
+            "ID": 195,
+            "Marks": 1,
+            "Question_Text": "What is the output of the following code snippet?\n\n```python\nmy_dict = {'a': 1, 'b': 2, 'c': 3}\nvalues = my_dict.values()\nprint(values)\n```",
+            "Options": [
+                "dict_values([1, 2, 3])",
+                "[1, 2, 3]",
+                "(1, 2, 3)",
+                "Error"
+            ]
+        },
+        {
+            "ID": 292,
+            "Marks": 1,
+            "Question_Text": "What is the result of the expression (False or (True and (False or (not True and True))))?",
+            "Options": [
+                "True",
+                "False",
+                "Error",
+                "Not Sure"
+            ]
+        },
+        {
+            "ID": 188,
+            "Marks": 1,
+            "Question_Text": "Which of the following methods is used to check if an element is present in a set in Python?",
+            "Options": [
+                "contains()",
+                "exists()",
+                "inset()",
+                "in"
+            ]
+        },
+        {
+            "ID": 448,
+            "Marks": 1,
+            "Question_Text": "What is the output of a recursive function that calculates the number of permutations of a string with distinct characters?",
+            "Options": [
+                "n!",
+                "n^n",
+                "2^n",
+                "2n"
+            ]
+        },
+        {
+            "ID": 287,
+            "Marks": 1,
+            "Question_Text": "What is the result of the expression (not (False and not (True or False)))?",
+            "Options": [
+                "True",
+                "False",
+                "Error",
+                "Not Sure"
+            ]
+        },
+        {
+            "ID": 70,
+            "Marks": 1,
+            "Question_Text": "What is the purpose of the `map` function in Python?",
+            "Options": [
+                "To apply a function to all items in a list",
+                "To find the maximum value in a list",
+                "To sort a list in descending order",
+                "To return the length of a list"
+            ]
+        },
+        {
+            "ID": 32,
+            "Marks": 1,
+            "Question_Text": "Which keyword is used to define the 'else if' statement in Python?",
+            "Options": [
+                "elseif",
+                "elif",
+                "else if",
+                "elsif"
+            ]
+        },
+        {
+            "ID": 49,
+            "Marks": 1,
+            "Question_Text": "What is the output of the following code snippet?\n\n```python\nx = 10\nif x < 5:\n    if x == 3:\n        print('x is 3')\nelse:\n    print('x is not 3')\n```",
+            "Options": [
+                "x is 3",
+                "x is not 3",
+                "Error",
+                "None of the above"
+            ]
+        },
+        {
+            "ID": 190,
+            "Marks": 1,
+            "Question_Text": "What is the output of the following code snippet?\n\n```python\nset1 = {1, 2, 3}\nset2 = {2, 3, 4}\nresult = set1.intersection(set2)\nprint(result)\n```",
+            "Options": [
+                "{2, 3}",
+                "{1, 2, 3, 4}",
+                "{1, 4}",
+                "{2, 3, 4}"
+            ]
+        },
+        {
+            "ID": 302,
+            "Marks": 1,
+            "Question_Text": "What is the result of trying to open a non-existent file in Python?",
+            "Options": [
+                "FileNotFoundError",
+                "ValueError",
+                "FileError",
+                "TypeError"
+            ]
+        },
+        {
+            "ID": 30,
+            "Marks": 1,
+            "Question_Text": "What is the output of the following code snippet?\n\n```python\nx = 5\nwhile x > 0:\n    x -= 1\n    if x == 2:\n        break\n    print(x, end=' ')\n```",
+            "Options": [
+                "4 3",
+                "4 3 2",
+                "4 3 2 1",
+                "3 2 1"
+            ]
+        },
+        {
+            "ID": 58,
+            "Marks": 1,
+            "Question_Text": "What is the output of the following code snippet?\n\n```python\nx = 15\nif x < 10:\n    if x == 5:\n        print('x is 5')\nelse:\n    if x > 10 and x <= 15:\n        print('x is between 10 and 15')\n    else:\n        print('x is greater than 15')\n```",
+            "Options": [
+                "x is between 10 and 15",
+                "x is 5",
+                "x is greater than 15",
+                "None of the above"
+            ]
+        },
+        {
+            "ID": 37,
+            "Marks": 1,
+            "Question_Text": "What is the output of the following code snippet?\n\n```python\nx = 10\nif x < 5:\n    print('x is less than 5')\nelif x == 5:\n    print('x is 5')\nelse:\n    print('x is greater than 5')\n```",
+            "Options": [
+                "x is less than 5",
+                "x is 5",
+                "x is greater than 5",
+                "None of the above"
+            ]
+        },
+        {
+            "ID": 446,
+            "Marks": 1,
+            "Question_Text": "What is the output of a recursive function that calculates the number of ways to climb n stairs if you can climb 1 or 2 steps at a time?",
+            "Options": [
+                "n",
+                "n+1",
+                "2n",
+                "2^n"
+            ]
+        },
+        {
+            "ID": 176,
+            "Marks": 1,
+            "Question_Text": "What is the output of the following code snippet?\n\n```python\ndict = {'a': 1, 'b': 2, 'c': 3}\nprint(dict.get('b', 0))\n```",
+            "Options": [
+                "1",
+                "2",
+                "3",
+                "0"
+            ]
+        },
+        {
+            "ID": 40,
+            "Marks": 1,
+            "Question_Text": "Which statement is used to exit from a loop prematurely in Python?",
+            "Options": [
+                "break",
+                "continue",
+                "pass",
+                "exit"
+            ]
+        },
+        {
+            "ID": 469,
+            "Marks": 1,
+            "Question_Text": "What is the purpose of the insertion sort algorithm?",
+            "Options": [
+                "Finding the maximum element in a list",
+                "Sorting a list of elements",
+                "Searching for a specific element in a sorted list",
+                "Finding the middle element in a list"
+            ]
+        },
+        {
+            "ID": 452,
+            "Marks": 1,
+            "Question_Text": "What is the main purpose of the binary search algorithm?",
+            "Options": [
+                "Sorting a list of elements",
+                "Finding the maximum element in a list",
+                "Finding the middle element in a list",
+                "Searching for a specific element in a sorted list"
+            ]
+        },
+        {
+            "ID": 11,
+            "Marks": 1,
+            "Question_Text": "What is the output of the following code snippet?\n\n```python\nfor i in range(5):\n    print(i, end=' ')\n```",
+            "Options": [
+                "0 1 2 3 4",
+                "1 2 3 4 5",
+                "0 1 2 3",
+                "1 2 3 4"
+            ]
+        },
+        {
+            "ID": 57,
+            "Marks": 1,
+            "Question_Text": "What is the output of the following code snippet?\n\n```python\nx = 10\nif x < 5:\n    if x == 3:\n        print('x is 3')\nelse:\n    print('x is not 3')\n```",
+            "Options": [
+                "x is 3",
+                "x is not 3",
+                "Error",
+                "None of the above"
+            ]
+        },
+        {
+            "ID": 432,
+            "Marks": 1,
+            "Question_Text": "What is the output of a recursive function that calculates the Fibonacci sequence for n=5?",
+            "Options": [
+                "0 1 1 2 3",
+                "1 1 2 3 5",
+                "0 1 2 3 5",
+                "1 2 3 5 8"
+            ]
+        }
+    ],
+    [
+        {
+            "ID": 164,
+            "Marks": 10,
+            "Question_Text": "Write a Python program to perform a union of multiple sets."
+        },
+        {
+            "ID": 44,
+            "Marks": 9,
+            "Question_Text": "Write a Python program to convert temperature from Celsius to Fahrenheit or vice versa based on user's choice."
+        },
+        {
+            "ID": 778,
+            "Marks": 5,
+            "Question_Text": "Create a Python dictionary that maps cities to their populations."
+        },
+        {
+            "ID": 499,
+            "Marks": 5,
+            "Question_Text": "Create a Python program that connects to a remote server and handles 'socket.error' exceptions for network errors."
+        },
+        {
+            "ID": 14,
+            "Marks": 9,
+            "Question_Text": "Write a Python program to find the kth smallest element in an unsorted array."
+        },
+        {
+            "ID": 451,
+            "Marks": 5,
+            "Question_Text": "Create a Python function to design a circuit for a priority encoder using boolean logic gates."
+        },
+        {
+            "ID": 16,
+            "Marks": 10,
+            "Question_Text": "Write a Python program to implement a merge sort algorithm."
+        },
+        {
+            "ID": 439,
+            "Marks": 5,
+            "Question_Text": "Create a Python function to convert a boolean expression to a truth table."
+        },
+        {
+            "ID": 17,
+            "Marks": 9,
+            "Question_Text": "Write a Python program to find the longest increasing subsequence in an array."
+        }
+    ],
+    [
+        {
+            "ID": 19,
+            "Marks": 3,
+            "Question_Text": "Write a Python program that takes a list of numbers and creates a set of unique numbers from that list. Calculate and print the sum of the unique numbers."
+        }
+    ]
+]
